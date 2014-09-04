@@ -7,6 +7,7 @@
 For testing on github as well as leanpub
 
 Block with php tag
+
 ```php
 <?php
     echo "Hello world";
@@ -14,6 +15,7 @@ Block with php tag
 ```
 
 block without php tag
+
 ```php
     echo "Hello world";
 ```
