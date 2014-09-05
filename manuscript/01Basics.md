@@ -46,6 +46,69 @@ Now we know how PHP programs runs. So lets go through PHP basics in more details
 
 ## PHP Tags
 
+There are four different tags available in PHP. They are:
+
+* Standard tags
+* Script tags
+* Short tags
+* ASP tags
+
+Lets check all available tags in details.
+
+### Standard tags
+
+We already saw standard tags in our *first script*. Each tags have two sets of tags; opening tags and closing tags. Standard opening tags are
+
+> <?PHP
+
+Standard closing tags are
+
+> ?>
+
+As we discussed above, any code between PHP opening and closing tags is valid php script and will be parsed by Zend engine. Any other text, outside php tags will be ignored by Zend engine and sent to output as it is.
+
+As the name suggest, standard php tags are most common and recommended. Standard tags are always available to use, regardless of php.ini settings.
+
+### Script tags
+
+Opening script tag
+
+> <SCRIPT LANGUAGE="PHP">
+
+Closing script tag
+
+> </SCRIPT>
+
+Like standard tags, script tags too are always available, regardless of php.ini settengs. Historically, PHP developers generally uses HTML editors. So they were added for the HTML editors which were capable to ignore script tags but could not understand PHP standard tags.
+
+However due to long syntax, PHP developers never liked them. They are still available but generally not in use. It is not recommended to use script tags.
+
+### Short tags
+
+Opening short tag
+
+> <?
+
+closing short tag
+
+> ?>
+
+Although it is short form of standard PHP tags, it depends on php.ini settings. To work properly, it need 
+
+Short tag also support short form to print value of a variable as follow
+
+> <?= $variable ?>
+
+above code is equivalent to
+
+```php
+<?PHP
+  echo $variable;
+?>
+```
+
+*We will discuss more about variables in next section.*
+
 ## Variables
 
 ## Constructs
