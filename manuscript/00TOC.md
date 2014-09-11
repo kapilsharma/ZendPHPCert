@@ -12,7 +12,7 @@ This will be removed in final published version of the book.
 [x] **Completed. Most probably will remain same in final version of the book.Need to verify (Proof read) probably by some other contributor**
 [X] **~~Finished. Ready to be published in final book.~~**
 
-* [ ] ***01. Basics***
+* [ ] ***01. Basics 1***
   * [ ] ***Chapter Introduction***
   * [x] First Script
   * [ ] **PHP Tags**
@@ -21,8 +21,28 @@ This will be removed in final published version of the book.
     * [ ] Script
     * [ ] ASP
   * [ ] Variables
-  * [ ] Language constructs
   * [ ] Data Types
   * [ ] Operators and Expressions
-  * [ ] Constants
   * [ ] Key concepts
+* [ ] ***02. Basics 2***
+  * [ ] Loops and decision
+  * [ ] Constructs
+  * [ ] Constants & Magic Constants
+  * [ ] Namespaces
+  * [ ] Extension
+  * [ ] Configuration
+* [ ] ***03. Functions***
+  * [ ] Introduction
+  * [ ] Syntax
+  * [ ] Returning values
+  * [ ] Arguments (with variable argument list)
+  * [ ] Variable scope
+  * [ ] Passing by reference
+  * [ ] Recursive functions
+  * [ ] Closures
+* [ ] ***04. Arrays 1***
+  * [ ] 
+* [ ] ***05. Arrays 2***
+* [ ] ***06. Strings 1***
+* [ ] ***07. Strings 2***
+* [ ] 

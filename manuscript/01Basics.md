@@ -109,15 +109,13 @@ above code is equivalent to
 
 *We will discuss more about variables in next section.*
 
-## Variables
+### ASP Tags
 
-## Constructs
+## Variables
 
 ## Data Types
 
 ## Operators and Expressions
-
-## Constants
 
 ## Key Concepts
 
