@@ -6,15 +6,15 @@ This will be removed in final published version of the book.
 
 ## Tracking
 
-[ ] Planned.
-[ ] **Started.**
-[x] Completed but need to be checked/revised.
-[x] **Completed. Most probably will remain same in final version of the book.Need to verify (Proof read) probably by some other contributor**
-[X] **~~Finished. Ready to be published in final book.~~**
+* [ ] Planned.
+* [ ] **Started.**
+* [X] Completed but need to be checked/revised.
+* [X] **Completed. Most probably will remain same in final version of the book.Need to verify (Proof read) probably by some other contributor**
+* [X] **~~Finished. Ready to be published in final book.~~**
 
 * [ ] ***01. Basics 1***
   * [ ] ***Chapter Introduction***
-  * [x] First Script
+  * [X] First Script
   * [ ] **PHP Tags**
     * [X] Standard
     * [X] Short
@@ -40,9 +40,10 @@ This will be removed in final published version of the book.
   * [ ] Passing by reference
   * [ ] Recursive functions
   * [ ] Closures
-* [ ] ***04. Arrays 1***
+* [ ] 04. Arrays 1
   * [ ] 
-* [ ] ***05. Arrays 2***
-* [ ] ***06. Strings 1***
-* [ ] ***07. Strings 2***
-* [ ] 
+* [ ] 05. Arrays 2
+* [ ] 06. Strings 1
+* [ ] 07. Strings 2
+* [ ] 08. Regular Expression
+  * [ ] 

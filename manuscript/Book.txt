@@ -1,3 +1,4 @@
 00TOC.md
 introduction.md
 01Basics.md
+08regex.md
