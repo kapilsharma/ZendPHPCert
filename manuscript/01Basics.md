@@ -115,6 +115,38 @@ As of PHP version 5.4, short hand is available regardless of `short_open_tag` se
 
 ### ASP Tags
 
+PHP also support asp tag in case some one prefer them but they are rarely/never used. **We strongly recommend not to use them.** Opening asp tag is
+
+> `<%`
+
+Closing asp tag is
+
+> `%>`
+
+Asp tags depends on `asp_tags` setting of php.ini
+
+> **Short, script and asp tags are available in php but it is strongly recommended not to use them. Only standard tags `<?PHP` & `?>` and shorthand `<?=` are recommended in current PHP applications.**
+
+### Important points about tags
+
+We can mix php tags. Following program is perfectly valid provided `short_open_tag` and `asp_tags` are set in php.ini file.
+
+```php
+<html>
+  <head>
+    <title>Mixing php tags example</title>
+  </head>
+  <body>
+    <h1>Mixing php tags example</h1>
+    <?PHP echo "This line is printed between standard and script tags." </script>
+    <br/>
+    This line is printed in html.
+    <br/>
+    <? echo "This line is printed between short and asp tags." %>
+  </body>
+<html>
+```
+
 ## Variables
 
 ## Data Types
@@ -123,4 +155,4 @@ As of PHP version 5.4, short hand is available regardless of `short_open_tag` se
 
 ## Key Concepts
 
-* Zend engine interprete PHP programs.
+* Zend engine interpret PHP programs.
