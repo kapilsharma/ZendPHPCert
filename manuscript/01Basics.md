@@ -59,11 +59,11 @@ Lets check all available tags in details.
 
 We already saw standard tags in our *first script*. Each tags have two sets of tags; opening tags and closing tags. Standard opening tags are
 
-> <?PHP
+> `<?PHP`
 
 Standard closing tags are
 
-> ?>
+> `?>`
 
 As we discussed above, any code between PHP opening and closing tags is valid php script and will be parsed by Zend engine. Any other text, outside php tags will be ignored by Zend engine and sent to output as it is.
 
@@ -73,11 +73,11 @@ As the name suggest, standard php tags are most common and recommended. Standard
 
 Opening script tag
 
-> <SCRIPT LANGUAGE="PHP">
+> `<script language="PHP">`
 
 Closing script tag
 
-> </SCRIPT>
+> `</script>`
 
 Like standard tags, script tags too are always available, regardless of php.ini settengs. Historically, PHP developers generally uses HTML editors. So they were added for the HTML editors which were capable to ignore script tags but could not understand PHP standard tags.
 
@@ -93,9 +93,11 @@ closing short tag
 
 > ?>
 
-Although it is short form of standard PHP tags, it depends on php.ini settings. To work properly, it need
+Although it is short form of standard PHP tags, it depends on php.ini settings. To work properly, it need `short_open_tag` directive of php.ini.
 
-Short tag also support short form to print value of a variable as follow
+Since it depends on php.ini settings, its availability could not be guaranteed and **use of short tags is not recommend.**
+
+Short tag also support short hand to print value of a variable as follow
 
 > <?= $variable ?>
 
@@ -108,6 +110,8 @@ above code is equivalent to
 ```
 
 *We will discuss more about variables in next section.*
+
+As of PHP version 5.4, short hand is available regardless of `short_open_tag` setting of php.ini.
 
 ### ASP Tags
 
