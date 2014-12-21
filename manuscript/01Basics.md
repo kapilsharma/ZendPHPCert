@@ -147,9 +147,90 @@ We can mix php tags. Following program is perfectly valid provided `short_open_t
 <html>
 ```
 
+*`echo` in above program is language constructs used to display some data. We will shortly look about language constructs.*
+
+## Language Constructs
+
+We can consider language constructs as basic grammar of php. Php interpreter knows how to handle a language construct and have special rules for them. If you are aware of function in php, language constructs might look like functions but unlike functions, they have special meaning for the interpreter. Language construct in php are:
+
+* echo()
+* isset()
+* unset()
+* include()
+* require()
+* die()
+* empty()
+
+`echo` used in previous example is also a language construct which is used to display some value. We will look about other language constructs in details in the following chapters.
+
 ## Variables
 
-## Data Types
+As the name suggest, variables are some data that can change over time. In other words, variables are temporary data storage.
+
+To understand variables, please consider following program:
+
+```php
+echo 1 + 2;
+```
+
+We already discussed `echo` is a language construct, used to display value. It can also display a result of some calculation as above. So the output of above program will be `3`
+
+However both 1 and 2 are constant values and above program will always display sum of 1 and 2, that is 3. What if we want to add different numbers? We must write a new program. This is where variables can help us. Consider following program.
+
+```php
+echo $a + $b;
+```
+
+This program looks similar to above program. The difference is, it add two variables and we can assign values to these variables at run time, may be taken as input from user or coming from database or any file.
+
+### Variable name
+
+As you can see in above program, a variable name always start with `$` symbol. `$` is not the part of variable name but just tell php interpreter that we are going to write a variable. So in above example, variable names are `a` and `b`.
+
+There are some rules for variable names. Rules are:
+
+* Variable names are case sensitive so `$a` and `$A` are two different variables.
+* Variable name may contain letters (English alphabat), digits (0-9) or underscore (_).
+* First character must be an letter or underscore.
+
+Based on above rules, below are few examples of valid variable names.
+
+* $name
+* $md5Value
+* $_phoneNumber
+* first_name
+* firstName
+
+Example of invalid variable names are:
+
+* $1meter (Variable name can't start with digit)
+* $first.name  ('.' can't be used as variable name, only letter, digit and underscore allowed)
+
+### Creating variable
+
+In many programming languages, we must declare a variable before we first use it. However in php, a variable is created as soon as we use it  for first time.
+
+```php
+$name = "Kapil";
+```
+
+### Declaration and initialization
+
+Since variable can be created as soon as we use it first, we could have variable without any value like
+
+```php
+$firstName;
+```
+
+This is called declaring a variable. We created a variable but didn't assigned any value to it. However it is recommended to assign some value to the variable as soon as we declare it.
+
+```php
+$firstName = "Kapil";
+```
+
+In second program, we not only declared variable name but also assigned a value to it. This is called
+
+## Data types
 
 ## Operators and Expressions
 
