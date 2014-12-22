@@ -216,7 +216,7 @@ $name = "Kapil";
 
 ### Declaration and initialization
 
-Since variable can be created as soon as we use it first, we could have variable without any value like
+Since variable can be created as soon as we first use them, we could have variable without any value like
 
 ```php
 $firstName;
@@ -228,7 +228,7 @@ This is called declaring a variable. We created a variable but didn't assigned a
 $firstName = "Kapil";
 ```
 
-In second program, we not only declared variable name but also assigned a value to it. This is called
+In second program, we not only declared variable name but also assigned a value to it. This is called initializing a variable.
 
 ## Data types
 
